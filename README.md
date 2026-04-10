@@ -17,7 +17,7 @@ Foi implementada através de actions, reducers, store.
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/j040lop3s/COUNTER-not-strike_FLUX_REDUX.git
+   git clone https://github.com/JO40L0P3S/COUNTER-not-strike_FLUX_REDUX.git
 
 2. **Instale as dependências:**
    ```bash
