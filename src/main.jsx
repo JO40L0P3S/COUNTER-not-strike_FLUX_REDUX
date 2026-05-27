@@ -4,6 +4,7 @@ import App from './App.jsx'
 import { Provider } from "react-redux";
 import store from "./store";
 
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Provider store={store}>
@@ -12,7 +13,7 @@ createRoot(document.getElementById('root')).render(
   </StrictMode>,
 )
 
-/*      É importante prover a store para que a aplicação fique ciente dela.
+/*      É importante prover a store para a aplicação.
         O Provider é um componente do React-Redux que torna a store do Redux 
         disponível para os componentes filhos. 
         

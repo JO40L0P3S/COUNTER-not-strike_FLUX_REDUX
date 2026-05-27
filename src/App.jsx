@@ -10,8 +10,8 @@ import { incrementar, decrementar } from './actions/counterActions';
 
 function App() {
 
-  const contador = useSelector((state) => state.contador.contador);
-  const dispatch = useDispatch();
+  const contador = useSelector((state) => state.contador.contador); // Obtém o estado e seu reducer da store
+  const dispatch = useDispatch(); // obtém a ação que fornece o tipo de mudança no estado global;
 
   const espessura = Math.abs(contador) * 40;
   const desfoque = Math.abs(contador) * 20;
